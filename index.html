@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet"
+    href="bootstrap.min.css">
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      /* border: 1px solid red; */
+      box-sizing: border-box;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mb-0">
+    <nav class="navbar navbar-expand-lg justify-content-end mt-3 pe-3 mb-0">
+      <button class="navbar-toggler d-lg-none d-md-block" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <a class="nav-link disabled nav-item p-3 d-md-none d-lg-block" aria-current="page">Home</a>
+            <a class="nav-item nav-link disabled p-3 d-md-none d-lg-block">New</a>
+            <a class="nav-item nav-link disabled p-3 d-md-none d-lg-block">Popular</a>
+            <a class="nav-item nav-link disabled p-3 d-md-none d-lg-block">Trending</a>
+            <a class="nav-item nav-link disabled pe-2 p-3 d-md-none d-lg-block">Categories</a>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+  <div class="containar">
+    <div class="row pt-5 m-0">
+      <div class="offset-lg-1 col-lg-7 col-md-12 offset-md-0">
+        <div class="card bg-transparent border-0 rounded-0">
+          <img src="image-web-3-desktop.jpg" class="card-img-top border border-0 p-0 rounded-0"
+            alt="...">
+            <div class="card-body ">
+              <h1 class="card-title d-inline-block" style="max-width: 16rem;">The Bright Future of Web 3.0?</h1>
+              <p class="card-text d-inline-block ps-3 pb-2" style="max-width: 26rem;">We dive into the next evolution of
+                the
+                web that claims to put the power of the platforms
+                back into the hands of the
+                people.
+                But is it really fulfilling its promise?<br><br>
+                <a href="#" class="btn btn-danger d-inline-block rounded-0" style="max-width:9rem;"> Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-12">
+        <ul class="list-group list-group-flush text-white" style="background-color: #273746;">
+          <div class="h1 ms-3 text-warning ">New</div>
+          <li class="list-group-item pb-4 pt-3 text-white-50" style="background-color: #273746;"><b
+              class="text-white">Hydrogen VS Electric Cars</b><br>
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </li>
+          <li class="list-group-item pb-4 pt-3 text-white-50" style="background-color: #273746;"><b
+              class="text-white">The Downsides of AI Artistry</b><br>
+            What are the possible adverse effects of on-demand AI image generation?
+          </li>
+          <li class="list-group-item pb-4 pt-3 text-white-50" style="background-color: #273746;"><b
+              class="text-white">Is VC Funding Drying Up?</b><br>
+            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="containar-fluid">
+    <div class="row m-0 mt-2">
+      <div class="offset-lg-1 col-lg-3 offsset-md-0 col-md-12 ">
+        <div class="card mb-3 bg-transparent border-0 rounded-0 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-lg-4 col-md-4">
+              <img src="image-retro-pcs.jpg" class="img-fluid rounded-0" alt="...">
+            </div>
+            <div class="col-lg-8 col-md-8">
+              <div class="card-body pt-0 pe-0">
+                <h3 class="text-black-50" style="width: 3rem; ">01</h1>
+                  <h5 class="card-title"><small>Retro PCs</small></h5>
+                  <p class="card-text text-body-secondary">
+                    <small> happens when old PCs are given modern upgrades?</small>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 offsset-md-0 col-md-12 ">
+        <div class="card mb-3 bg-transparent border-0 rounded-0 " style="max-width: 540px; ">
+          <div class="row g-1">
+            <div class="col-lg-4 col-md-4">
+              <img src="image-top-laptops.jpg" class="img-fluid rounded-0" alt="...">
+            </div>
+            <div class="col-lg-8 col-md-8">
+              <div class="card-body pt-0 pe-0">
+                <h3 class="text-black-50" style="width: 3rem; ">02</h1>
+                  <h5 class="card-title"><small>Top 10 Laptops of 2022</small></h5>
+                  <p class="card-text text-body-secondary">
+                    <small>Our best picks for various needs and budgets.</small>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 offsset-md-0 col-md-12 ">
+        <div class="card mb-3 bg-transparent border-0 rounded-0 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-lg-4 col-md-4">
+              <img src="image-gaming-growth.jpg" class="img-fluid rounded-0" alt="...">
+            </div>
+            <div class="col-lg-8 col-md-8">
+              <div class="card-body pt-0 pe-0">
+                <h3 class="text-black-50" style="width: 3rem; ">03</h1>
+                  <h5 class="card-title"><small>The Growth of Gaming</small></h5>
+                  <p class="card-text text-body-secondary">
+                    <small> How the pandemic has sparked fresh opportunities.</small>
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="bootstrap.min.js"></script>
+</body>
+
+</html>
